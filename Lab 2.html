@@ -1,23 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>John Lab 2</title>
-</head>
-<body>
-    <a class="Link_1" href="https://rafaelescalfoni.github.io/index.html">Professor Rafael Escalfoni</a>
-<br><br><br><br>
-<br><br><br><br>
-<a class="atividades" href="atividade 1.html" style="margin-left:30px;">Atividade 1</a>
-<a class="atividades" href="atividade 2.html" style="margin-left:100px;">Atividade 2</a>
-<a class="atividades" href="atividade 3.html" style="margin-left:100px;">Atividade 3</a>
-<br><br><br><br><br><br>
-<a class="atividades" href="atividade 4.html" style="margin-left:30px;">Atividade 4</a>
-<a class="atividades" href="atividade 5.html" style="margin-left:100px;">Atividade 5</a>
-<a class="atividades" href="atividade 6.html" style="margin-left:100px;">Atividade 6</a>
-<br><br><br><br>
-<br><br><br><br>
-</body>
+    <style>
+      body {
+        background-color: rgba(0, 0, 0, 0.527);
+        color: #ffff;
+        font-family: monospace;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      .links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 120px;
+        justify-content: center;
+        padding: 20px;
+      }
+      a {
+        color: #fff;
+      }
+      .item a {
+        color: #000;
+        transition: 0.6s;
+      }
+      .item a:hover {
+        color: red;
+      }
+
+      .item {
+        border: 2px solid black;
+        width: 500px;
+        min-height: 200px;
+        background-color: #ffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <a class="Link_1" href="https://rafaelescalfoni.github.io/index.html"
+      >Professor Rafael Escalfoni</a
+    >
+    <div class="container">
+      <div class="links">
+        <div class="item item1">
+          <a class="atividades" href="atividade 1.html">Atividade 1</a>
+        </div>
+        <div class="item item2">
+          <a class="atividades" href="atividade 2.html">Atividade 2</a>
+        </div>
+        <div class="item item3">
+          <a class="atividades" href="atividade 3.html">Atividade 3</a>
+        </div>
+        <div class="item item4">
+          <a class="atividades" href="atividade 4.html">Atividade 4</a>
+        </div>
+        <div class="item item5">
+          <a class="atividades" href="atividade 5.html">Atividade 5</a>
+        </div>
+        <div class="item item6">
+          <a class="atividades" href="atividade 6.html">Atividade 6</a>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
