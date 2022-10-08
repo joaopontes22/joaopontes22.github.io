@@ -1,0 +1,143 @@
+/*
+azul escuro: rgb(2, 27, 38)
+azul claro: rgb(195, 227, 245)
+
+azul-botao: rgb(23, 176, 228)
+azul-link: rgb(9, 70, 92)
+
+*/
+
+body {
+    background-color:rgb(2, 27, 38);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+main {
+    width: 80%;
+    margin: 20px  auto;
+    background-color: #fff;
+
+}
+blockquote, main footer {
+    background-color: rgb(195, 227, 245);
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    height: 55px;
+    padding: 10px;
+}
+.ancor1
+{
+    color: rgb(9, 70, 92);
+}
+b{
+    color: rgb(63, 165, 224);
+}
+header h1 {
+    color: #fff;
+    margin: 20px 50px;
+}
+nav ul {
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    list-style:none;
+    
+}
+
+nav li {
+    padding: 20px;
+}
+
+nav a {
+    color:#fff;
+    text-decoration: none;
+}
+#banner
+{
+    position: relative;
+    top: 10px;
+    left: 20px;
+    width: 90%;
+    padding: 30px;
+    background-image: url("/lab2/lab02/img/surf.png");
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h2 
+{
+    color: #ffff;
+    font-size: 60px;
+}
+
+#banner p
+{
+    position: relative;
+    top: -50px;
+    color: #ffff;
+}
+
+.layout1
+{
+    display: flex;
+}
+.layout1 div 
+
+{
+    color: #ffff;
+    padding: 10px;
+    height: 300px;
+    margin: 50px;
+    background-color:rgb(142, 213, 255);
+}
+
+h3 
+{
+    font-size: 30px;
+}
+
+button 
+{
+    margin: 0px 50px;
+    border-style: none;
+    padding: 10px;
+    background-color: rgb(23, 176, 228);
+    color: #ffff;
+}
+
+.layout2
+{
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+    position: relative;
+    left: 20px;
+   
+}
+.layout2 h3{
+    color: rgb(2, 27, 38);
+}
+blockquote
+{
+    padding: 10px;
+    width: 70%;
+    height: 200px;
+}
+
+.ancor2
+{
+    color: rgb(2, 27, 38);
+}
+.ancor3
+{
+    color: rgb(23, 176, 228);
+}
+
+footer div 
+{
+    color: #ffff;
+    margin: 20px 200px;
+}
