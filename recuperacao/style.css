@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+ 
+    }
+    #cabecalho
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(27, 15, 0);
+        height: 350px;
+        text-align: center;
+     
+    }
+    button 
+    {
+        border: 0;
+        background-color: transparent;
+        color: white;
+        padding: 10px;
+    }
+    .butao1
+    {
+             background-color: rgb(175, 20, 59);;
+    }
+    .butoes
+    {
+        display: flex;
+        gap: 20px;
+        padding: 50px;
+       
+    }
+
+    .subtitulo
+    {
+        color: rgb(155, 155, 155);
+    }
+    
+    .primeiroquadrado
+    {
+        background-color:rgb(209, 65, 36);
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+        text-align: center;
+    }
+
+.blocos
+{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 120px;
+}
+.bl 
+{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.bl button 
+{
+    background-color: rgb(175, 20, 59);
+}
+footer 
+{
+
+ margin: -50px;
+padding: 200px;
+color: white;
+background-color: rgb(27, 15, 0);
+}
